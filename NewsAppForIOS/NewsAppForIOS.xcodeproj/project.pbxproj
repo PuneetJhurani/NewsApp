@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		976F637B24BDC23100CCC93C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 976F637A24BDC23100CCC93C /* Podfile */; };
+		97977CF924BDC73000B0F169 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97977CF824BDC73000B0F169 /* GoogleService-Info.plist */; };
 		97A6EFFD24BC469A009F597F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A6EFFC24BC469A009F597F /* AppDelegate.swift */; };
 		97A6EFFF24BC469A009F597F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A6EFFE24BC469A009F597F /* ViewController.swift */; };
 		97A6F00224BC469A009F597F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A6F00024BC469A009F597F /* Main.storyboard */; };
 		97A6F00424BC469B009F597F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A6F00324BC469B009F597F /* Assets.xcassets */; };
 		97A6F00724BC469B009F597F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A6F00524BC469B009F597F /* LaunchScreen.storyboard */; };
+		CBC5291CC618D41CDBEBCA37 /* Pods_NewsAppForIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FE6A76446138C0BA517B60 /* Pods_NewsAppForIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C0594B2FAF50257FD392D83 /* Pods-NewsAppForIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAppForIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsAppForIOS/Pods-NewsAppForIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		78FE6A76446138C0BA517B60 /* Pods_NewsAppForIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsAppForIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		976F637A24BDC23100CCC93C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		97977CF824BDC73000B0F169 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "NewsAppForIOS/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		97A6EFF924BC469A009F597F /* NewsAppForIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAppForIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A6EFFC24BC469A009F597F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97A6EFFE24BC469A009F597F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		97A6F00324BC469B009F597F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97A6F00624BC469B009F597F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97A6F00824BC469B009F597F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46A8E3B1A1469E222D58112 /* Pods-NewsAppForIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAppForIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsAppForIOS/Pods-NewsAppForIOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBC5291CC618D41CDBEBCA37 /* Pods_NewsAppForIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		878104B86D7AD7A259F135E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78FE6A76446138C0BA517B60 /* Pods_NewsAppForIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		97A6EFF024BC4699009F597F = {
 			isa = PBXGroup;
 			children = (
+				97977CF824BDC73000B0F169 /* GoogleService-Info.plist */,
 				97A6EFFB24BC469A009F597F /* NewsAppForIOS */,
 				97A6EFFA24BC469A009F597F /* Products */,
+				99D33346A58C7F3A4D92376A /* Pods */,
+				878104B86D7AD7A259F135E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +74,7 @@
 		97A6EFFB24BC469A009F597F /* NewsAppForIOS */ = {
 			isa = PBXGroup;
 			children = (
+				976F637A24BDC23100CCC93C /* Podfile */,
 				97A6EFFC24BC469A009F597F /* AppDelegate.swift */,
 				97A6EFFE24BC469A009F597F /* ViewController.swift */,
 				97A6F00024BC469A009F597F /* Main.storyboard */,
@@ -64,6 +85,15 @@
 			path = NewsAppForIOS;
 			sourceTree = "<group>";
 		};
+		99D33346A58C7F3A4D92376A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C0594B2FAF50257FD392D83 /* Pods-NewsAppForIOS.debug.xcconfig */,
+				B46A8E3B1A1469E222D58112 /* Pods-NewsAppForIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97A6F00B24BC469B009F597F /* Build configuration list for PBXNativeTarget "NewsAppForIOS" */;
 			buildPhases = (
+				57745B97AA205AC87DCEACE3 /* [CP] Check Pods Manifest.lock */,
 				97A6EFF524BC469A009F597F /* Sources */,
 				97A6EFF624BC469A009F597F /* Frameworks */,
 				97A6EFF724BC469A009F597F /* Resources */,
+				FFADC176FD678A36FF341A02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,13 +154,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				976F637B24BDC23100CCC93C /* Podfile in Resources */,
 				97A6F00724BC469B009F597F /* LaunchScreen.storyboard in Resources */,
+				97977CF924BDC73000B0F169 /* GoogleService-Info.plist in Resources */,
 				97A6F00424BC469B009F597F /* Assets.xcassets in Resources */,
 				97A6F00224BC469A009F597F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57745B97AA205AC87DCEACE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewsAppForIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFADC176FD678A36FF341A02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NewsAppForIOS/Pods-NewsAppForIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsAppForIOS/Pods-NewsAppForIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		97A6EFF524BC469A009F597F /* Sources */ = {
@@ -213,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,11 +371,13 @@
 		};
 		97A6F00C24BC469B009F597F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0594B2FAF50257FD392D83 /* Pods-NewsAppForIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S8QTK69Q46;
 				INFOPLIST_FILE = NewsAppForIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +391,13 @@
 		};
 		97A6F00D24BC469B009F597F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46A8E3B1A1469E222D58112 /* Pods-NewsAppForIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S8QTK69Q46;
 				INFOPLIST_FILE = NewsAppForIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
